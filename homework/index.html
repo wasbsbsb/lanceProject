@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lance</title>
+    <style>
+        body {
+            padding: 15px;
+            color: #0f0e0c;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+
+        li {
+            padding: 3px;
+            list-style: none;
+        }
+
+        a {
+            margin: 0 6px;
+            text-decoration: underline;
+            color: #e85959;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hi,</h1>
+    <h3>我的名字是 Lance l c zheng (郑亮琛)</h3>
+    <p>我是一名前端开发工程师，热爱前端技术node、react，热爱生活，平常喜欢研究新型技术，和美食/喜欢游泳。</p>
+
+    <h3>联系我的方式</h3>
+    <ul>
+        <li>
+            weChart:<a href="weixin://" id="weChart">wasbsbsb</a>
+        </li>
+        <li>
+            email:<a href="mailto:?body=Hi，我是&subject=lance,你好呀">zlc2016@foxmail.com</a>
+        </li>
+        <li>
+            csdn:<a href="https://blog.csdn.net/weixin_45343326?type=blog">wasbsbsb</a>
+        </li>
+    </ul>
+
+    <h3>生活照片</h3>
+
+    <img src="./img/psc.jfif" style="width: 100%;" />
+
+
+    <h3>记事篇</h3>
+
+    <h3>技术篇</h3>
+
+
+    <ul id="travel">
+        <li><a href="javascript:;">长城游</a></li>
+        <li><a href="javascript:;">长沙游</a></li>
+        <li><a href="javascript:;">南昌游</a></li>
+        <li><a href="javascript:;">世界之窗游</a></li>
+        <li><a href="javascript:;">广州塔游</a></li>
+        <li><a href="javascript:;">瑞金游</a></li>
+        <li><a href="javascript:;">西安城墙游</a></li>
+        <li><a href="javascript:;">厦门游</a></li>
+
+    </ul>
+
+    <h3>技术专研</h3>
+
+    <ul>
+        <li>JavaScript</li>
+        <li>Vue</li>
+        <li>React</li>
+        <li>Node</li>
+        <li>email tmp</li>
+        <li>Ts</li>
+        <li>Ut</li>
+        <li>Ts</li>
+        <li>jest</li>
+        <li>cad \ ps \ 3ds Max</li>
+        <li>jenkins \ azure</li>
+    </ul>
+
+    <input style="opacity: 0;" id="copyInput" value="wasbsbsb" />
+
+
+
+
+
+    <script>
+        document.getElementById('weChart').onclick = () => {
+            copyInput.select()
+            document.execCommand("Copy");
+        }
+
+
+        document.getElementById('travel').onclick = () => {
+            window.alert('暂未开放')
+        }
+
+
+    </script>
+
+</body>
+
+</html>
