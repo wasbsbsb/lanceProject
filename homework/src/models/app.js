@@ -16,7 +16,7 @@ const footerList = [
         path: 'helpCenter'
     },
     {
-        name: "xxxxxx",
+        name: "upload file",
         path: 'setting'
     },
 ]

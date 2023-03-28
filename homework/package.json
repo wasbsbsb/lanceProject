@@ -18,7 +18,8 @@
     "moment": "2.29.1",
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "style-loader": "3.3.1"
+    "style-loader": "3.3.1",
+    "xlsx": "0.18.5"
   },
   "devDependencies": {
     "babel-eslint": "9.0.0",
