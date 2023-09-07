@@ -10,7 +10,11 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "address": "^1.2.2",
+    "axios": "^1.5.0",
     "element-plus": "^2.3.1",
+    "ip": "2.0.0",
+    "os": "^0.1.2",
     "pinia": "^2.0.32",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"

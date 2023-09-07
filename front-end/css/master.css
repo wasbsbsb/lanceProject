@@ -1,0 +1,12 @@
+@media screen and (min-width:321px) and (max-width:768px) {}
+
+header {
+    height: 80px;
+    line-height: 80px;
+
+}
+
+header svg {
+    width: 60px;
+    height: 40px;
+}
